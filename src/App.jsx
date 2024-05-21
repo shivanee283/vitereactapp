@@ -30,7 +30,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is : {count}
+          see the count : {count}
         </button>
         <button onClick={generateRandomColor}>
           Change Background Color
